@@ -17,10 +17,10 @@ def verificar_connection(usuario):
     browser.get('https://kinney.netwaytelecom.com.br/')
 
     login_user = browser.find_element_by_xpath('//*[@id="email"]')
-    login_user.send_keys('joao.sa@netwaytelecom.com.br')
+    login_user.send_keys('YOU EMAIL LOGIN HERE')
 
     senha = browser.find_element_by_xpath('//*[@id="password"]')
-    senha.send_keys('mudar@123')
+    senha.send_keys('PASSWORD HERE')
 
     login_enter = browser.find_element_by_xpath('/html/body/main/div/div/div/div[2]/div/form/button')
     login_enter.click()
